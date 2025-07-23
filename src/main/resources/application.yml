@@ -1,0 +1,18 @@
+spring:
+  application:
+  name: gof-with-spring
+  output:
+    ansi:
+      enabled: ALWAYS # Habilitando cores no console - melhor visualiza??o de logging de erro, warns, etc.
+  datasource:
+    url: ${DATASOURCE_URL:jdbc:postgresql://localhost:5433/design_patterns_dio_class}
+    username: ${DATASOURCE_USERNAME}
+    password: ${DATASOURCE_PASSWORD}
+    driverClassName: org.postgresql.Driver
+
+  jpa:
+    sql-show: true
+    hibernate:
+      ddl-auto: create-drop
+    properties:
+      hibernate.format_sql: true
