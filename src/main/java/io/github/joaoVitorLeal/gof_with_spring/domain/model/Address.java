@@ -1,4 +1,4 @@
-package io.github.joaoVitorLeal.gof_with_spring.models;
+package io.github.joaoVitorLeal.gof_with_spring.domain.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.Column;

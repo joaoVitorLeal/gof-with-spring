@@ -1,4 +1,4 @@
-package io.github.joaoVitorLeal.gof_with_spring.exceptions.global;
+package io.github.joaoVitorLeal.gof_with_spring.exception.global;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

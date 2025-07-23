@@ -1,4 +1,4 @@
-package io.github.joaoVitorLeal.gof_with_spring.models;
+package io.github.joaoVitorLeal.gof_with_spring.domain.model;
 
 import jakarta.persistence.*;
 

@@ -1,8 +1,8 @@
-package io.github.joaoVitorLeal.gof_with_spring.services;
+package io.github.joaoVitorLeal.gof_with_spring.domain.services;
 
 import io.github.joaoVitorLeal.gof_with_spring.dtos.CustomerRequestDTO;
 import io.github.joaoVitorLeal.gof_with_spring.dtos.CustomerResponseDTO;
-import io.github.joaoVitorLeal.gof_with_spring.models.Customer;
+import io.github.joaoVitorLeal.gof_with_spring.domain.model.Customer;
 
 import java.util.UUID;
 

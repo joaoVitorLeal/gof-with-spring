@@ -1,4 +1,4 @@
-package io.github.joaoVitorLeal.gof_with_spring.exceptions;
+package io.github.joaoVitorLeal.gof_with_spring.domain.exceptions;
 
 public class InvalidFieldsCustomerException extends RuntimeException {
 

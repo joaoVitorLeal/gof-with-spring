@@ -1,7 +1,7 @@
-package io.github.joaoVitorLeal.gof_with_spring.exceptions.global;
+package io.github.joaoVitorLeal.gof_with_spring.exception.global;
 
-import io.github.joaoVitorLeal.gof_with_spring.exceptions.CustomerNotFoundException;
-import io.github.joaoVitorLeal.gof_with_spring.exceptions.InvalidFieldsCustomerException;
+import io.github.joaoVitorLeal.gof_with_spring.domain.exceptions.CustomerNotFoundException;
+import io.github.joaoVitorLeal.gof_with_spring.domain.exceptions.InvalidFieldsCustomerException;
 import jakarta.servlet.http.HttpServletRequest;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

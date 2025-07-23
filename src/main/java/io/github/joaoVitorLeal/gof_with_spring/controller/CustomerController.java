@@ -2,8 +2,8 @@ package io.github.joaoVitorLeal.gof_with_spring.controller;
 
 import io.github.joaoVitorLeal.gof_with_spring.dtos.CustomerRequestDTO;
 import io.github.joaoVitorLeal.gof_with_spring.dtos.CustomerResponseDTO;
-import io.github.joaoVitorLeal.gof_with_spring.models.Customer;
-import io.github.joaoVitorLeal.gof_with_spring.services.CustomerService;
+import io.github.joaoVitorLeal.gof_with_spring.domain.model.Customer;
+import io.github.joaoVitorLeal.gof_with_spring.domain.services.CustomerService;
 import io.github.joaoVitorLeal.gof_with_spring.shared.UriLocationBuilder;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
@@ -12,7 +12,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.net.URI;
-import java.util.List;
 import java.util.UUID;
 
 /**
@@ -61,37 +60,3 @@ public class CustomerController implements UriLocationBuilder {
         return ResponseEntity.noContent().build();
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

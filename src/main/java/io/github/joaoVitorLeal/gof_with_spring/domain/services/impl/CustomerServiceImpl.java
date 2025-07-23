@@ -1,15 +1,15 @@
-package io.github.joaoVitorLeal.gof_with_spring.services.impl;
+package io.github.joaoVitorLeal.gof_with_spring.domain.services.impl;
 
 import io.github.joaoVitorLeal.gof_with_spring.dtos.CustomerRequestDTO;
 import io.github.joaoVitorLeal.gof_with_spring.dtos.CustomerResponseDTO;
-import io.github.joaoVitorLeal.gof_with_spring.exceptions.CustomerNotFoundException;
-import io.github.joaoVitorLeal.gof_with_spring.exceptions.InvalidFieldsCustomerException;
+import io.github.joaoVitorLeal.gof_with_spring.domain.exceptions.CustomerNotFoundException;
+import io.github.joaoVitorLeal.gof_with_spring.domain.exceptions.InvalidFieldsCustomerException;
 import io.github.joaoVitorLeal.gof_with_spring.mappers.CustomerMapper;
-import io.github.joaoVitorLeal.gof_with_spring.models.Address;
-import io.github.joaoVitorLeal.gof_with_spring.models.Customer;
-import io.github.joaoVitorLeal.gof_with_spring.repositories.AddressRepository;
-import io.github.joaoVitorLeal.gof_with_spring.repositories.CustomerRepository;
-import io.github.joaoVitorLeal.gof_with_spring.services.CustomerService;
+import io.github.joaoVitorLeal.gof_with_spring.domain.model.Address;
+import io.github.joaoVitorLeal.gof_with_spring.domain.model.Customer;
+import io.github.joaoVitorLeal.gof_with_spring.domain.repositories.AddressRepository;
+import io.github.joaoVitorLeal.gof_with_spring.domain.repositories.CustomerRepository;
+import io.github.joaoVitorLeal.gof_with_spring.domain.services.CustomerService;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

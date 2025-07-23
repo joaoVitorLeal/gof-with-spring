@@ -1,7 +1,7 @@
 package io.github.joaoVitorLeal.gof_with_spring.mappers;
 
 import io.github.joaoVitorLeal.gof_with_spring.dtos.AddressResponseDTO;
-import io.github.joaoVitorLeal.gof_with_spring.models.Address;
+import io.github.joaoVitorLeal.gof_with_spring.domain.model.Address;
 
 // Singleton
 public class AddressResponseMapper {

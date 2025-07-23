@@ -4,7 +4,7 @@ import io.github.joaoVitorLeal.gof_with_spring.dtos.AddressResponseDTO;
 import io.github.joaoVitorLeal.gof_with_spring.dtos.ViaCepResponseDTO;
 import io.github.joaoVitorLeal.gof_with_spring.mappers.AddressMapper;
 import io.github.joaoVitorLeal.gof_with_spring.mappers.AddressResponseMapper;
-import io.github.joaoVitorLeal.gof_with_spring.models.Address;
+import io.github.joaoVitorLeal.gof_with_spring.domain.model.Address;
 
 /**
  * Classe fachada (FACADE) que centraliza as conversões entre entidade Address,
@@ -17,7 +17,7 @@ import io.github.joaoVitorLeal.gof_with_spring.models.Address;
 public class AddressMapperFacade {
 
     private static final AddressMapper addressMapper = new AddressMapper();
-    private static final AddressResponseMapper responseMapper = AddressResponseMapper.getInstance();
+    private static final AddressResponseMapper responseMapper = AddressResponseMapper.getInstance(); // Singleton
 
     private AddressMapperFacade() {
         // Classe utilitária não deve ser instanciada

@@ -1,7 +1,7 @@
-package io.github.joaoVitorLeal.gof_with_spring.repositories;
+package io.github.joaoVitorLeal.gof_with_spring.domain.repositories;
 
-import io.github.joaoVitorLeal.gof_with_spring.models.Address;
-import io.github.joaoVitorLeal.gof_with_spring.models.Customer;
+import io.github.joaoVitorLeal.gof_with_spring.domain.model.Address;
+import io.github.joaoVitorLeal.gof_with_spring.domain.model.Customer;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.UUID;
